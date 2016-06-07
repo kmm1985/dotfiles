@@ -1,0 +1,7 @@
+[user]
+	name = Kelvin M Maki
+	email = kelvin.maki@yahoo.com
+[core]
+	autocrlf = input
+[color]
+	ui = auto
