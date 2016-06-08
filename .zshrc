@@ -7,6 +7,7 @@ zstyle :compinstall filename '/home/kmm/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=8192
@@ -19,6 +20,7 @@ bindkey -v
 # Prompts
 autoload -Uz colors && colors
 PROMPT="%{%F{blue}%n%f%}%{%F{cyan}@%f%}%{%F{blue}%m%f%} %{%F{cyan}%~%f%} %{%(!.%F{red}#%f.%F{green}$%f)%}"
+
 # Aliases
 alias ls='ls --color=auto -lh'
 alias bb-upgrade='bb-wrapper -Syu --aur --build-dir /tmp --build-vcs'
